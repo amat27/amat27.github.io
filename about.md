@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Too lazy to have a about page.
+```c
+0b110010100
+```
