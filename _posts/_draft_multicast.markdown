@@ -1,4 +1,6 @@
-Casual Order
+
+
+Casual Order Multicast
 
 P_i[1..N]
 P_i[j] is the latest sequence P_i received from P_j
