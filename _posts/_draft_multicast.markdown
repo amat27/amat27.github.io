@@ -33,7 +33,7 @@ P_i [1..N], where
         buffer message
 
 
-Casual Order Multicast
+Causal Order Multicast
 
 P_i[1..N]
 P_i[j] is the latest sequence P_i received from P_j
