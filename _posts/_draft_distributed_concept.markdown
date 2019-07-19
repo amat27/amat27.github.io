@@ -15,3 +15,9 @@ Strong Consistency:
 - Sequential
 - Linearizability
 - Transaction ACID (Hyperdex, Spanner, Transaction Chains)
+
+Consistent Hashing
+
+- Using SHA-1 to has peer address to 160 bit array
+- Truncated to m bits, treated as peer id
+
