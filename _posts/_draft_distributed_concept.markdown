@@ -23,13 +23,13 @@ Consistent Hashing
 
 Graph
 - Two Important Graph Properties
-    - Clustering Coefficient: the probility if A and B are neighbours if A and C are neighbours and B and C are also neighbours
+    - Clustering Coefficient: the probability if A and B are neighbors if A and C are neighbors and B and C are also neighbors
     - Path Length: the average path length of a graph is the average of path length between each pair of vertices
 - Graph Type
-    - Extened Ring Graph: High CC, Long Paths
+    - Extended Ring Graph: High CC, Long Paths
     - Random Graph: Low CC, Short Path
-    - Small World Netwroks: High CC, Short Paths
-- Degree distribution: the probobility of a gigen node having k edges
+    - Small World Networks: High CC, Short Paths
+- Degree distribution: the probability of a given node having k edges
     - Regular graph: all nodes same degree
     - Gaussian
     - Random graph: Exponential -e^(-k.c)

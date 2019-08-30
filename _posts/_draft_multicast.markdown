@@ -28,7 +28,7 @@ P_i [1..N], where
 
 - When P_i recieve from P_j with sequence S
     - if S == P_i[j] + 1
-        - deliever the message, set P_i[j] = S
+        - deliver the message, set P_i[j] = S
     - else
         buffer message
 
@@ -41,8 +41,8 @@ P_i[j] is the latest sequence P_i received from P_j
 - When P_i sends a multicast message
     - P_i[i]++
     - multicast P_i[1..N] along with the message
-- When P_i recieves a message from P_j
+- When P_i receives a message from P_j
     - if P_j[j] = P_i[j] + 1
         - for every k != j, P_j[k] <= P_i[k]
-        - Delever the messsage, set P_i[j] = P_j[j]
+        - Deliver the message, set P_i[j] = P_j[j]
     - else delay the message
